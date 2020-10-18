@@ -1,0 +1,94 @@
+body {
+    background-color: #f3f1ea;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.message {
+    background-color: #000;
+    height: 25px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+.message p {
+    font-size:10px;
+    text-align: center;
+    color: #fff;
+}
+@media (min-width: 544px) {  
+    .message p {font-size:11px;}
+  }
+   
+@media (min-width: 768px) {  
+    .message p {font-size:small;} 
+}
+.close.closeup {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.close.closeup:hover {
+    color: #fff;
+}
+.regicon {
+    position: absolute;
+    font-size: 20px;
+}
+.yutsocoll
+ {
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    top: 0;
+ }
+.yutsocoll a {
+    font-size: xx-large;
+}
+.navbaryutso {
+    padding: 1.5rem 1rem;
+    top: 20px;
+}
+.navbaryutso a {
+padding: 10px;
+color: #000;
+}
+.navbaryutso li {
+    padding-right: 10px;
+}
+.navbaryutso li.li-cart {
+    padding-right: 0;
+}
+
+.yutso-item  {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:620px;
+}
+.carouseltext {
+    text-align: left;
+    width: 25%;
+    left: 5%;
+}
+.yutso-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+
+.brandtitle {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+@media (min-width: 544px) {  
+    .brandtitle h1 {font-size: 1.5rem;}
+  }
+   
+@media (min-width: 768px) {  
+    .brandtitle h1 {font-size: 2.5rem;} 
+}
+.mesto {
+    height: 1000px;
+}

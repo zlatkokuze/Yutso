@@ -1,0 +1,8 @@
+proektot e so width = 1600px , taka da height bi bilo 899, 1600x899
+na moj monitor ima  1366 x 768
+/
+taka da razmer za width  e: 1.1713030746705710102489019033675
+
+ a razmer za height e:      1.1705729166666666666666666666667
+
+
