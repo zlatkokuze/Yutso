@@ -1,8 +1,39 @@
 body {
-    background-color: #f3f1ea;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: #e8e4db;
+    font-family: 'Archia', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
 }
-
+h1, .h1 {
+    font-size: 60px;
+    letter-spacing: -3px;
+    line-height: 1.1;
+}
+h2, .h2 {
+    font-size: 48px;
+    letter-spacing: -4px;
+    line-height: 1;
+}
+h3, .h3 {
+    font-size: 36px;
+}
+h4, .h4{
+    font-size: 24px;
+}
+h5, .h5 {
+    font-size: 18px;
+    letter-spacing: auto;
+    line-height: 1.6;
+}
+h3, h4, .h3, .h4 {
+    letter-spacing: -4;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+    font-weight: 500;
+}
+/*message*/
 .message {
     background-color: #000;
     height: 25px;
@@ -12,63 +43,95 @@ body {
 .message p {
     font-size:10px;
     text-align: center;
-    color: #fff;
+    color: #efece6;
 }
+@media (max-width: 544px) {  
+    .message p {font-size:9px;}
+  }
 @media (min-width: 544px) {  
     .message p {font-size:11px;}
   }
-   
 @media (min-width: 768px) {  
     .message p {font-size:small;} 
 }
 .close.closeup {
-    color: #fff;
+    color: #efece6;
     position: absolute;
-    top: 0;
-    right: 10px;
+    top: -5px;
+    right: 15px;
+    font-size: 2rem;
+    font-weight: 100;
+    opacity: 1;
+    text-shadow:none;
 }
 .close.closeup:hover {
     color: #fff;
 }
-.regicon {
-    position: absolute;
-    font-size: 20px;
-}
-.yutsocoll
- {
-    position: absolute;
-    left: 50%;
-    margin-left: -120px;
-    top: 0;
- }
-.yutsocoll a {
-    font-size: xx-large;
-}
+/*message end*/
+/*navbar start*/
 .navbaryutso {
-    padding: 1.5rem 1rem;
+    padding: 24px 15px;
     top: 20px;
 }
 .navbaryutso a {
 padding: 10px;
 color: #000;
 }
+.navbar a:visited {
+    text-decoration: line-through;
+}
+.navbar a:hover {
+    text-decoration: line-through;
+}
 .navbaryutso li {
     padding-right: 10px;
 }
-.navbaryutso li.li-cart {
+.navbaryutso ul li.li-cart {
+    padding-right: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    background-color: #000;
+}
+@media (max-width: 992px) {  
+    .navbaryutso ul li.li-cart {max-width: 95px;} 
+}
+.navbaryutso ul li.li-cart a {
+    color: #fff;
+}
+.yutsocoll
+ {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 0;
+ }
+.yutsocoll a {
+    font-size: 42px;
+    margin-right: 0; 
+    padding-left: 0;
     padding-right: 0;
 }
-
+.regicon {
+    position: absolute;
+    font-size: 20px;
+}
+/*navbar end*/
+/*slider start*/
 .yutso-item  {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     height:620px;
 }
+.yutso-item a {
+    color: #fff;
+}
 .carouseltext {
     text-align: left;
-    width: 25%;
-    left: 5%;
+    width: 28%;
+    left: 40px;
 }
 .yutso-indicators li {
     width: 12px;
@@ -77,12 +140,18 @@ color: #000;
     margin-right: 7px;
     margin-left: 7px;
   }
-
+/*slider end*/
 .brandtitle {
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 10px;
 }
-
+@media (max-width: 992px) {  
+    .brandtitle h1  {font-size:5vw;} 
+}
+.molded {
+    padding-top: 50px;
+}
+/*mesto nadole kolku za scroll*/
 .mesto {
     height: 1000px;
 }
