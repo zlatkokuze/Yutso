@@ -5,14 +5,30 @@ body {
     font-weight: 400;
     line-height: 1.6;
 }
+/*
+@media (min-width: 1600px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {       
+     max-width: 90%;}
+} */
+a {
+    color: #000;
+}
+p {
+    font-size: 16px;
+}
+hr {
+    border-top: 1px solid rgba(0,0,0,.9);
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
 h1, .h1 {
     font-size: 60px;
-    letter-spacing: -3px;
+    letter-spacing: -3;
     line-height: 1.1;
 }
 h2, .h2 {
     font-size: 48px;
-    letter-spacing: -4px;
+    letter-spacing: -4;
     line-height: 1;
 }
 h3, .h3 {
@@ -113,6 +129,10 @@ color: #000;
     padding-left: 0;
     padding-right: 0;
 }
+/*ova ne raboti, izglea ke mora so skripta linkovive za line-through */
+.yutsocoll a:visited {
+    text-decoration: none;
+ }
 .regicon {
     position: absolute;
     font-size: 20px;
@@ -148,10 +168,151 @@ color: #000;
 @media (max-width: 992px) {  
     .brandtitle h1  {font-size:5vw;} 
 }
-.molded {
+
+.prop-section {
     padding-top: 50px;
 }
-/*mesto nadole kolku za scroll*/
-.mesto {
-    height: 1000px;
+.prop-section p {
+    padding-top: 10px;
 }
+.products-pre {
+    background-color: #efece6;
+}
+/*prasaj za ova koga treba v desno da odi nesto do kraj, moze pa i ne treba vo container da e*/
+.container-rightNO {
+    margin-right: 0;
+}
+.aboutas {
+    background-color: #000;
+}
+.aboutas h3 {
+    color: #fff;
+    padding-top: 30px;
+}
+.aboutas a {
+    color: #fff;
+}
+.aboutas p {
+    color: #efece6;
+}
+.aboutcol2 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+.aboutas .col-6 {
+    padding-top: 30px;
+}
+
+.aboutas.prop-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.soaps .btn-dark {
+    background-color: #000;
+    border-color: #000;
+}
+.soaps h3 {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.soapscol1-1 {
+    width: 80%;
+    max-width: 100%;
+}
+.soapscol1 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+.soapscol2 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+.soaps-row p {
+    margin-bottom: 0rem;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.soaps-price {
+    font-size: 15px;
+    font-weight: bold;
+}
+.soaps-row-last {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.shipping img {
+    align-content: center;
+    padding-bottom: 10px;
+  }
+.shipping p {
+    color: #6d735e;
+}
+.shipping h4 {
+    font-size: 20px;
+}
+.shipping-bckgr {
+    background-color: #efece6;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features {
+    padding-bottom: 50px;
+}
+.features p {
+    padding-bottom: 20px;
+}
+.row-footer {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.row-footer h3 {
+    padding-bottom: 30px;
+}
+.row-footer a {
+    font-size: 14px;
+}
+.row-footer p {
+    font-weight: bold;
+}
+.footer-col1 {
+    width: 330px;
+}
+.form-email.form-control  {
+    background-color: #e8e4db;
+    border: none;
+    padding: 0;
+}    
+.form-email.form-control:focus  {
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}  
+.enter-email {
+    padding-top: 20px;
+}
+.form-text {
+    font-size: 12px;
+}
+@media (min-width: 992px) {  
+    .terms {padding-left: 20px;} 
+}
+@media (min-width: 992px) {  
+    .social {padding-left: 60px;} 
+}
+.footer-copyright {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 15px;
+    padding-right: 3px;
+    padding-bottom: 10px;
+}   
+
