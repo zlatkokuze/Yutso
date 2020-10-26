@@ -21,6 +21,10 @@ hr {
     margin-top: 3px;
     margin-bottom: 2px;
 }
+s {
+    color: #a7a49e;
+    padding-left: 5px;
+}
 h1, .h1 {
     font-size: 60px;
     letter-spacing: -3;
@@ -175,12 +179,42 @@ color: #000;
 .prop-section p {
     padding-top: 10px;
 }
-.products-pre {
-    background-color: #efece6;
+.products-scroll {
+    padding-top: 10px;
 }
-/*prasaj za ova koga treba v desno da odi nesto do kraj, moze pa i ne treba vo container da e*/
+.products-scroll p {
+    margin-bottom: 0rem;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.product-list {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.product-list-items {
+    display: inline-block;
+    width: 305px;
+    padding-left: 5px;
+}
+.product-item {
+    position: relative;
+    background-color: #efece6;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+.product-price {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 1px;
+    padding-right: 3px;
+}
+/*prasaj za ova koga treba v desno da odi nesto do kraj. Moze pa i ne treba vo container da e*/
 .container-rightNO {
     margin-right: 0;
+    margin-left: 6%;
 }
 .aboutas {
     background-color: #000;
@@ -298,6 +332,9 @@ color: #000;
 }  
 .enter-email {
     padding-top: 20px;
+}
+.enter-email svg {
+    margin-top: 5px;
 }
 .form-text {
     font-size: 12px;
